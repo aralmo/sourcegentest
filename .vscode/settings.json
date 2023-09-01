@@ -1,0 +1,3 @@
+{
+    "dotnet.defaultSolution": "SourceGenerator\\SourceGenerator.sln"
+}

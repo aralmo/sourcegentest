@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SourceGenerator\SourceGenerator.csproj" 
+						PrivateAssets="contentfiles;build"
+                        SetTargetFramework="TargetFramework=netstandard2.0" />
+	</ItemGroup>	
+
+</Project>
